@@ -1,0 +1,13 @@
+{
+  "experiment_id": "exp_1787946018955",
+  "timestamp": "2026-08-29T01:10:18.955541",
+  "action": "analyze_region",
+  "image_id": "sample_pdf_hyperchromasia",
+  "model": "ScribblePrompt",
+  "feature": "Hyperchromatic Enlarged Nucleus",
+  "category": "Nuclear Atypia",
+  "area_pixels": 4776,
+  "area_microns_sq": 1194.0,
+  "circularity": 0.807,
+  "od_hematoxylin": 0.362
+}

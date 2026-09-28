@@ -1,0 +1,13 @@
+{
+  "experiment_id": "exp_1787945800699",
+  "timestamp": "2026-08-29T01:06:40.699110",
+  "action": "analyze_region",
+  "image_id": "sample_pdf_multinucleation",
+  "model": "ScribblePrompt",
+  "feature": "Single-Cell Keratinisation",
+  "category": "Cytoplasmic Differentiation",
+  "area_pixels": 10459,
+  "area_microns_sq": 2614.75,
+  "circularity": 0.715,
+  "od_hematoxylin": 0.212
+}

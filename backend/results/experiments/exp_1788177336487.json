@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_1788177336487",
+  "timestamp": "2026-08-31T17:25:36.487297",
+  "action": "extract_region",
+  "image_id": "sample_pdf_hyperchromasia",
+  "bbox": [
+    412,
+    47,
+    525,
+    347
+  ],
+  "area_pixels": 2398,
+  "crop_url": "/results/crop_sample_pdf_hyperchromasia_7bd0541b.png",
+  "cutout_url": "/results/cutout_sample_pdf_hyperchromasia_7bd0541b.png"
+}

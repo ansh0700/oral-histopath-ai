@@ -1,0 +1,13 @@
+{
+  "experiment_id": "exp_1789190521990",
+  "timestamp": "2026-09-12T10:52:01.990117",
+  "action": "analyze_region",
+  "image_id": "img_7529e947c6b8",
+  "model": "scribbleprompt",
+  "feature": "Tadpole / Spindle Cell Transformation",
+  "category": "Cellular Pleomorphism (OSCC)",
+  "area_pixels": 29244,
+  "area_microns_sq": 7311.0,
+  "circularity": 0.625,
+  "od_hematoxylin": 0.093
+}

@@ -1,0 +1,13 @@
+{
+  "experiment_id": "exp_1788307875604",
+  "timestamp": "2026-09-02T05:41:15.604214",
+  "action": "analyze_region",
+  "image_id": "sample_pdf_hyperchromasia",
+  "model": "scribbleprompt",
+  "feature": "Tadpole / Spindle Cell Transformation",
+  "category": "Cellular Pleomorphism (OSCC)",
+  "area_pixels": 1654,
+  "area_microns_sq": 413.5,
+  "circularity": 0.43,
+  "od_hematoxylin": 0.317
+}

@@ -1,0 +1,13 @@
+{
+  "experiment_id": "exp_1789190100806",
+  "timestamp": "2026-09-12T10:45:00.806183",
+  "action": "analyze_region",
+  "image_id": "img_7529e947c6b8",
+  "model": "scribbleprompt",
+  "feature": "Prominent & Multiple Nucleoli",
+  "category": "Nuclear Atypia",
+  "area_pixels": 255381,
+  "area_microns_sq": 63845.25,
+  "circularity": 0.722,
+  "od_hematoxylin": 0.204
+}

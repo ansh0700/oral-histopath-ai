@@ -1,0 +1,13 @@
+{
+  "experiment_id": "exp_1788387737301",
+  "timestamp": "2026-09-03T03:52:17.301755",
+  "action": "analyze_region",
+  "image_id": "sample_pdf_hyperchromasia",
+  "model": "scribbleprompt",
+  "feature": "Single-Cell Keratinisation",
+  "category": "Cytoplasmic Differentiation",
+  "area_pixels": 935,
+  "area_microns_sq": 233.75,
+  "circularity": 0.671,
+  "od_hematoxylin": 0.291
+}

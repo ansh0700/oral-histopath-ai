@@ -1,0 +1,10 @@
+{
+  "experiment_id": "exp_1787945729503",
+  "timestamp": "2026-08-29T01:05:29.503097",
+  "action": "refine",
+  "image_id": "sample_pdf_multinucleation",
+  "model": "scribbleprompt",
+  "mode": "strict",
+  "inference_time_ms": 1068.48,
+  "confidence": 0.596
+}

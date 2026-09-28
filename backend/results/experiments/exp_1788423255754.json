@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_1788423255754",
+  "timestamp": "2026-09-03T13:44:15.754696",
+  "action": "extract_region",
+  "image_id": "sample_pdf_nuclear_shape",
+  "bbox": [
+    444,
+    294,
+    495,
+    350
+  ],
+  "area_pixels": 1547,
+  "crop_url": "/results/crop_sample_pdf_nuclear_shape_f712749f.png",
+  "cutout_url": "/results/cutout_sample_pdf_nuclear_shape_f712749f.png"
+}

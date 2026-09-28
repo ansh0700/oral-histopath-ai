@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_1787929909575",
+  "timestamp": "2026-08-28T20:41:49.575276",
+  "action": "compare_models",
+  "image_id": "sample_opmd_dysplasia",
+  "models_tested": [
+    "scribbleprompt",
+    "pathosam",
+    "vista_path",
+    "medsam",
+    "cellvit",
+    "hovernet"
+  ],
+  "gt_available": false
+}

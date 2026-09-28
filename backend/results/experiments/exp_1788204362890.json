@@ -1,0 +1,13 @@
+{
+  "experiment_id": "exp_1788204362890",
+  "timestamp": "2026-09-01T00:56:02.890590",
+  "action": "analyze_region",
+  "image_id": "sample_pdf_hyperchromasia",
+  "model": "Exact Brush Mode",
+  "feature": "Prominent & Multiple Nucleoli",
+  "category": "Nuclear Atypia",
+  "area_pixels": 61414,
+  "area_microns_sq": 15353.5,
+  "circularity": 0.473,
+  "od_hematoxylin": 0.179
+}

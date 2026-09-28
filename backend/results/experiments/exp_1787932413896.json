@@ -1,0 +1,13 @@
+{
+  "experiment_id": "exp_1787932413896",
+  "timestamp": "2026-08-28T21:23:33.896951",
+  "action": "analyze_region",
+  "image_id": "sample_opmd_dysplasia",
+  "model": "ScribblePrompt",
+  "feature": "Enlarged Pleomorphic Nucleus",
+  "category": "Nuclear Pleomorphism",
+  "area_pixels": 12594,
+  "area_microns_sq": 3148.5,
+  "circularity": 0.365,
+  "od_hematoxylin": 0.126
+}

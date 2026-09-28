@@ -1,0 +1,13 @@
+{
+  "experiment_id": "exp_1787945178753",
+  "timestamp": "2026-08-29T00:56:18.753239",
+  "action": "analyze_region",
+  "image_id": "sample_pdf_hyperchromasia",
+  "model": "Exact Brush Mode",
+  "feature": "Unknown / Insufficient evidence",
+  "category": "Indeterminate",
+  "area_pixels": 0,
+  "area_microns_sq": 0.0,
+  "circularity": 0.0,
+  "od_hematoxylin": 0.0
+}

@@ -1,0 +1,58 @@
+====================================================================
+     ORAL HISTOPATHOLOGY AI ANALYZER (OPMD / OSCC) - SETUP GUIDE
+====================================================================
+
+This guide provides step-by-step instructions to install and run the application on any Windows computer.
+
+--------------------------------------------------------------------
+STEP 1: PREREQUISITES (ONE-TIME SETUP)
+--------------------------------------------------------------------
+Before running the application, make sure the following 2 software tools are installed on the PC:
+
+1. PYTHON 3.10+ (Recommended Python 3.11 / 3.12 / 3.14):
+   - Download Link: https://www.python.org/downloads/
+   - VERY IMPORTANT: During installation, tick the checkbox at the bottom:
+     [X] "Add python.exe to PATH"
+
+2. NODE.JS (LTS Version 20 or 22):
+   - Download Link: https://nodejs.org/ (Click LTS Windows Installer .msi)
+   - Install with default settings.
+
+--------------------------------------------------------------------
+STEP 2: ONE-CLICK INSTALLATION (setup.bat)
+--------------------------------------------------------------------
+1. Extract 'oral-histopath-ai.zip' to any folder (e.g. Desktop or C:\oral-histopath-ai).
+2. Open the extracted 'oral-histopath-ai' folder.
+3. Double-click on 'setup.bat'.
+4. This script will automatically download and install all required Python libraries:
+   - FastAPI, Uvicorn, OpenCV, NumPy, Pillow, Scikit-Image, PyYAML, Python-Multipart
+   and all Node.js frontend packages (React, Vite, Tailwind).
+5. Wait until you see "[SUCCESS] All dependencies have been installed successfully!" and press any key.
+
+--------------------------------------------------------------------
+STEP 3: LAUNCH THE APPLICATION (start_app.bat)
+--------------------------------------------------------------------
+1. Double-click on 'start_app.bat'.
+2. Two command windows will open:
+   - Backend Server (FastAPI on http://127.0.0.1:8000)
+   - Frontend Server (Vite on http://127.0.0.1:5173)
+3. Your default web browser will automatically open:
+   👉 http://localhost:5173
+
+--------------------------------------------------------------------
+TROUBLESHOOTING & COMMON FIXES
+--------------------------------------------------------------------
+Q: Backend terminal says "python command not found"?
+A: Re-run Python installer, choose "Modify", and check "Add Python to PATH", or check environment variables.
+
+Q: File upload or segmentation analysis shows internal server error?
+A: Open terminal in 'backend' folder and run:
+   python -m pip install -r requirements.txt
+
+Q: Port 8000 or 5173 already in use?
+A: Close any existing command prompt windows and re-run 'start_app.bat'.
+
+====================================================================
+Support / Assistance:
+If you need any help, contact the project development team.
+====================================================================

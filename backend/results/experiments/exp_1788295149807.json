@@ -1,0 +1,14 @@
+{
+  "experiment_id": "exp_1788295149807",
+  "timestamp": "2026-09-02T02:09:09.807725",
+  "action": "segment",
+  "image_id": "sample_pdf_hyperchromasia",
+  "model": "scribbleprompt",
+  "mode": "exact",
+  "roi_padding": 20,
+  "user_brush_area": 0,
+  "ai_suggested_area": 0,
+  "expansion_ratio": 0.0,
+  "inference_time_ms": 1.0,
+  "confidence": 1.0
+}

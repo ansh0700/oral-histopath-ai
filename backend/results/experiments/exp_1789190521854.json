@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_1789190521854",
+  "timestamp": "2026-09-12T10:52:01.854848",
+  "action": "extract_region",
+  "image_id": "img_7529e947c6b8",
+  "bbox": [
+    111,
+    594,
+    463,
+    726
+  ],
+  "area_pixels": 29244,
+  "crop_url": "/results/crop_img_7529e947c6b8_cbffb406.png",
+  "cutout_url": "/results/cutout_img_7529e947c6b8_cbffb406.png"
+}

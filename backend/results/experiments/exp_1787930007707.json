@@ -1,0 +1,13 @@
+{
+  "experiment_id": "exp_1787930007707",
+  "timestamp": "2026-08-28T20:43:27.707350",
+  "action": "analyze_region",
+  "image_id": "sample_opmd_dysplasia",
+  "model": "ScribblePrompt",
+  "feature": "Nuclear Enlargement (Macronucleus)",
+  "category": "Nuclear Atypia",
+  "area_pixels": 3285,
+  "area_microns_sq": 821.25,
+  "circularity": 0.843,
+  "od_hematoxylin": 0.212
+}

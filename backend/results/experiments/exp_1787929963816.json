@@ -1,0 +1,11 @@
+{
+  "experiment_id": "exp_1787929963816",
+  "timestamp": "2026-08-28T20:42:43.816163",
+  "action": "segment",
+  "image_id": "sample_opmd_dysplasia",
+  "model": "scribbleprompt",
+  "points": null,
+  "bbox": null,
+  "inference_time_ms": 809.09,
+  "confidence": 0.628
+}

@@ -1,0 +1,81 @@
+# Oral Histopathology AI Analyzer — Models Configuration
+# Only genuine, functional models with loaded neural weights are active.
+
+models:
+  scribbleprompt:
+    name: "ScribblePrompt"
+    display_name: "ScribblePrompt (Interactive Neural Model)"
+    description: "Interactive foundation model with PyTorch architecture for free-form scribble & brush-guided segmentation and iterative boundary refinement."
+    enabled: true
+    checkpoint: "weights/scribbleprompt.pth"
+    device: "cpu"
+    supports_point_prompt: true
+    supports_box_prompt: true
+    supports_scribble_prompt: true
+    supports_mask_prompt: true
+    supports_iterative_refinement: true
+
+  pathosam:
+    name: "PathoSAM"
+    display_name: "PathoSAM (Histopathology SAM)"
+    description: "Digital pathology foundation model (Requires external PathoSAM ViT checkpoint)."
+    enabled: false
+    checkpoint: "weights/pathosam.pth"
+    device: "cpu"
+    supports_point_prompt: true
+    supports_box_prompt: true
+    supports_scribble_prompt: false
+    supports_mask_prompt: true
+    supports_iterative_refinement: true
+
+  vista_path:
+    name: "VISTA-PATH"
+    display_name: "VISTA-PATH (Interactive Pathology)"
+    description: "Pathology foundation model (Requires external VISTA-PATH checkpoint)."
+    enabled: false
+    checkpoint: "weights/vista_path.pth"
+    device: "cpu"
+    supports_point_prompt: true
+    supports_box_prompt: true
+    supports_scribble_prompt: false
+    supports_mask_prompt: true
+    supports_iterative_refinement: true
+
+  medsam:
+    name: "MedSAM"
+    display_name: "MedSAM (Medical SAM)"
+    description: "Universal medical image SAM (Requires external MedSAM ViT-B checkpoint)."
+    enabled: false
+    checkpoint: "weights/medsam_vit_b.pth"
+    device: "cpu"
+    supports_point_prompt: false
+    supports_box_prompt: true
+    supports_scribble_prompt: false
+    supports_mask_prompt: false
+    supports_iterative_refinement: false
+
+  cellvit:
+    name: "CellViT"
+    display_name: "CellViT (Nuclear Instance Analysis)"
+    description: "Vision Transformer for nuclear instance segmentation (Requires external CellViT-256 checkpoint)."
+    enabled: false
+    checkpoint: "weights/cellvit_256.pth"
+    device: "cpu"
+    supports_point_prompt: true
+    supports_box_prompt: false
+    supports_scribble_prompt: false
+    supports_mask_prompt: false
+    supports_iterative_refinement: false
+
+  hovernet:
+    name: "HoVer-Net"
+    display_name: "HoVer-Net (Nuclear Classification)"
+    description: "Nuclear segmentation and classification model (Requires external HoVer-Net PanNuke checkpoint)."
+    enabled: false
+    checkpoint: "weights/hovernet_fast_pannuke.pth"
+    device: "cpu"
+    supports_point_prompt: true
+    supports_box_prompt: false
+    supports_scribble_prompt: false
+    supports_mask_prompt: false
+    supports_iterative_refinement: false

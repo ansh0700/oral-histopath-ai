@@ -1,0 +1,14 @@
+{
+  "experiment_id": "exp_1787944506761",
+  "timestamp": "2026-08-29T00:45:06.761557",
+  "action": "segment",
+  "image_id": "sample_pdf_hyperchromasia",
+  "model": "pathosam",
+  "mode": "exact",
+  "roi_padding": 20,
+  "user_brush_area": 4353,
+  "ai_suggested_area": 4353,
+  "expansion_ratio": 0.0,
+  "inference_time_ms": 1.0,
+  "confidence": 1.0
+}

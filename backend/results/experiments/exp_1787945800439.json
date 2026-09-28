@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_1787945800439",
+  "timestamp": "2026-08-29T01:06:40.439874",
+  "action": "extract_region",
+  "image_id": "sample_pdf_multinucleation",
+  "bbox": [
+    553,
+    104,
+    695,
+    217
+  ],
+  "area_pixels": 10459,
+  "crop_url": "/results/crop_sample_pdf_multinucleation_75672b25.png",
+  "cutout_url": "/results/cutout_sample_pdf_multinucleation_75672b25.png"
+}

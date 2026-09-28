@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_1787930007410",
+  "timestamp": "2026-08-28T20:43:27.410283",
+  "action": "extract_region",
+  "image_id": "sample_opmd_dysplasia",
+  "bbox": [
+    388,
+    388,
+    455,
+    455
+  ],
+  "area_pixels": 3285,
+  "crop_url": "/results/crop_sample_opmd_dysplasia_cf601fd3.png",
+  "cutout_url": "/results/cutout_sample_opmd_dysplasia_cf601fd3.png"
+}

@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_1788204470768",
+  "timestamp": "2026-09-01T00:57:50.768308",
+  "action": "compare_models",
+  "image_id": "sample_pdf_hyperchromasia",
+  "models_tested": [
+    "scribbleprompt",
+    "pathosam",
+    "vista_path",
+    "medsam",
+    "cellvit",
+    "hovernet"
+  ],
+  "gt_available": false
+}
