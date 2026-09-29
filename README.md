@@ -1,5 +1,8 @@
 # Oral Histopathology AI Analyzer (OPMD / OSCC Research Prototype)
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Netlify-brightgreen?style=for-the-badge&logo=netlify)](https://melodic-panda-b78522.netlify.app)
+**🌐 Live Web Application**: [https://melodic-panda-b78522.netlify.app](https://melodic-panda-b78522.netlify.app)
+
 An interactive, research-grade computational histopathology system designed for the analysis of Oral Potentially Malignant Disorders (OPMD) and Oral Squamous Cell Carcinoma (OSCC) H&E images.
 
 > **Medical Disclaimer**: This application is strictly a research and educational prototype, **NOT** a clinical diagnostic tool. The system does not provide automated clinical diagnoses.
